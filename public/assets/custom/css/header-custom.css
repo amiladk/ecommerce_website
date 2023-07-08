@@ -1,0 +1,54 @@
+/*
+|--------------------------------------------------------------------------
+| Header custom style
+|--------------------------------------------------------------------------
+*/
+
+.header-bottom {
+    color: #fff;
+    background: #333;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+  }
+  
+  .category-dropdown > a {
+    background: #FFA500;
+    min-width: 28rem;
+    padding: 2.4rem 2.3rem 2.3rem 2.5rem;
+    letter-spacing: -0.01em;
+    transition: all 0.3s;
+    text-transform: capitalize;
+  }
+  
+  .header-search.hs-expanded .input-wrapper,
+  .header-search.hs-expanded .select-box,
+  .header-search.hs-expanded .form-control,
+  .header-search.hs-expanded .btn-search {
+      border: none;
+      background-color: #f6f7f9;
+  }
+  
+  .category-dropdown .dropdown-box{
+    opacity: 0         !important;
+    visibility: hidden !important;
+    transition: 0.3s   !important;
+  
+  }
+  
+  .dropdown:hover .header-custom.dropdown-box {
+    visibility: visible    !important;
+    opacity: 1             !important;
+    top: calc(100% - 20px) !important;
+  }
+  
+  .header-search.hs-expanded{
+    width: 100%     !important;
+    max-width: 100% !important;
+  }
+  
+  /*
+  |--------------------------------------------------------------------------
+  | Header custom style
+  |--------------------------------------------------------------------------
+  */
